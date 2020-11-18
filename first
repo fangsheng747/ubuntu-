@@ -1,0 +1,16 @@
+ls 查看当前的目录
+cd ..返回上一级,返回很多级,cd ../../../返回三级
+pwd 查看当前所在的位置
+tab 补齐
+ctrl + c(/d) 关闭程序
+ctrl + shift + t  打开很多终端
+ctrl + l 清屏
+shutdown 关机
+ll 文件的权限
+touch 创建一个文件
+chmod + x(-x) 修改文件权限, chmod 777 给予所有的权限 r=4,w=2,x=1.
+mkdir 创建一个文件夹
+rm 删除文件
+rm -r 删除文件夹
+cp 复制 cp 1 2 --复制1,形成2
+sudo cp 1 2 超级用户权限
