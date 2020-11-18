@@ -1,16 +1,27 @@
-ls 查看当前的目录
-cd ..返回上一级,返回很多级,cd ../../../返回三级
-pwd 查看当前所在的位置
-tab 补齐
-ctrl + c(/d) 关闭程序
-ctrl + shift + t  打开很多终端
-ctrl + l 清屏
-shutdown 关机
-ll 文件的权限
-touch 创建一个文件
-chmod + x(-x) 修改文件权限, chmod 777 给予所有的权限 r=4,w=2,x=1.
-mkdir 创建一个文件夹
-rm 删除文件
-rm -r 删除文件夹
-cp 复制 cp 1 2 --复制1,形成2
-sudo cp 1 2 超级用户权限
+ls                         查看当前的目录
+cd ..                      返回上一级,返回很多级,cd ../../../返回三级
+pwd                        查看当前所在的位置
+tab                        补齐
+ctrl + c(/d)               关闭程序
+ctrl + shift + t           打开很多终端
+ctrl + l                   清屏
+shutdown                   关机
+ll                         文件的权限
+touch                      创建一个文件
+chmod + x(-x)               修改文件权限, chmod 777 给予所有的权限 r=4,w=2,x=1.
+mkdir                       创建一个文件夹
+rm                          删除文件
+rm -r                       删除文件夹
+cp 复制 cp 1 2              复制1,形成2
+sudo cp 1 2                 超级用户权限
+==========================================================
+ros的基本操作
+roscore                         开启ros服务
+roscd                           与cd命令相似
+rosrun 功能包名 节点名           开启节点
+roslaunch 功能包名 launch文件名  开启多个节点
+rostopic                         话题工具
+rosparam                         参数设置
+rosservice                       包含用于列出和查询ROS Services的rosservice命令行工具
+ros_graph                        节点运行图
+ros_plot                         数据分析
