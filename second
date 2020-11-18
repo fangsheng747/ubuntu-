@@ -1,0 +1,6 @@
+关于无人机学习遇到的问题
+1 gazebo的问题:
+              在虚拟机下运行gazebo，关于vmw_ioctl_command error Invalid argument错误
+              (1)关闭虚拟机的3D图形加速,在编辑虚拟机选项中关闭3D图形加速，可以解决此问题；
+              (2)设置环境变量  export SVGA_VGPU10=0 
+                               echo "export SVGA_VGPU10=0" >> ~/.bashrc
